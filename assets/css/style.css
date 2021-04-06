@@ -283,7 +283,7 @@ footer p:nth-child(2){
         padding: 0 1rem;
      }
      footer p:nth-child(2) {
-        width: 100%;
+        width: 95%;
      }
      nav ul li a {
         margin: 5px;
@@ -297,13 +297,25 @@ footer p:nth-child(2){
     }
     .about-container{
         margin: 350px auto 20px;
-        height: 450px;
+        height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 2em;
     }
     .about-container img {
         height: 200px;
     }
+    .about-text {
+        width: 100%;
+        padding: 1em;
+    }
     .about-text p:nth-child(1) {
-        padding: 15px;
+        padding: 12px 0px 8px;
+        text-align: center;
+    }
+    .about-text p:nth-child(2) {
+        text-align: center;
+        padding: 0.8em 0;
     }
     .about-text p:nth-child(3), .about-text p:nth-child(4) {
         
@@ -316,8 +328,7 @@ footer p:nth-child(2){
         
         line-height: 30px;
     }
-    .copyright {
-        
-        font-size: 19px;
+    .copyright {        
+        font-size: 14px;
     }
 }
