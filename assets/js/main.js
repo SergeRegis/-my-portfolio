@@ -44,3 +44,29 @@ function scrollActive(){
         }
     })
 }
+
+// Get the button that opens the popup
+var openPopupBtn = document.querySelector(".open-popup");
+
+// Get the popup
+var popup = document.querySelector(".popup");
+
+// Get the button that closes the popup
+var closePopupBtn = document.querySelector(".close-popup");
+
+// When the user clicks the button, open the popup
+openPopupBtn.onclick = function() {
+    popup.style.display = "block";
+}
+
+// When the user clicks on the close button, close the popup
+closePopupBtn.onclick = function() {
+    popup.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the popup, close it
+window.onclick = function(event) {
+    if (event.target == popup) {
+        popup.style.display = "none";
+    }
+}
