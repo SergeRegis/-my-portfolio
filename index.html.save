@@ -1,3 +1,5 @@
+\
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -40,7 +42,7 @@
     <p>Hello</p>
     <p>I'M SERGE REGIS NDAYISHIMIYE</p>
     <p>I am Fontend Developer <br>& Desginer</p>
-    <button class="down-cv"> <a href="./assets/img/resume.pdf" download="">View My Cv</button></a>
+    <button class="down-cv"> <a href="./assets/img/css2.jpg" download="">View My Cv</button></a>
 </div>
 <!-- model -->
 <img src="assets/img/serge1.jpg" class="model" alt="model">
@@ -71,40 +73,11 @@
 </div>
 
 
-<!-- recent project -->
-<div class="project-grid">
-    <div class="project">
-      <img src="./assets/img/driver.webp" alt="Project 1">
-      <h3>Online Driver Hiring App</h3>
-      <p>The fastest way to get where you need to go.</p>
-      <a href="https://github.com/SergeRegis">View Project</a>
-    </div>
-    <div class="project">
-      <img src="./assets/img/commerce.jpeg" alt="Project 2">
-      <h3>E-Commerce Web App</h3>
-      <p>From our store to your door, we've got you covered.</p>
-      <a href="https://github.com/SergeRegis">View Project</a>
-    </div>
-    <div class="project">
-      <img src="./assets/img/recipi.jpg" class="recipi-img" alt="Project 3">
-      <h3>Food Recipe</h3>
-      <p>Cooking made easy: find recipes that fit your lifestyle on our web app.</p>
-      <a href="https://github.com/SergeRegis">View Project</a>
-    </div>
-    <div class="project">
-      <img src="./assets/img/youtube.jpg" alt="Project 4">
-      <h3>YouTube Ui Design</h3>
-      <p>The UI of youtube</p>
-      <a href="https://github.com/SergeRegis">View Project</a>
-    </div>
-  </div>
+
 <!-- contact me -->
 <div class="contact-me" id="contact">
    <p>If You Have Any Project In Your Mind.</p><br>
-   <button class="open-popup">Contact Me</button>
-   
-   <br>
-   
+   <button>Contact Me</button><br>
    <h1 style="color: #ffffff;" class="contact-phone">Phone: +250786285968</h1>
    <h1 style="color: #ffffff;" class="contact-email">Email: sergendayishimiyee@gmail.com</h1>
 
